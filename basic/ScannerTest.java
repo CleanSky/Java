@@ -3,14 +3,14 @@ package com.bisn.basic;
 import java.util.Scanner;
 
 /*
- * è·å–ç”¨æˆ·è¾“å…¥
+ * »ñÈ¡ÓÃ»§ÊäÈë
  */
 
 public class ScannerTest {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);//å®šä¹‰è¾“å…¥å˜é‡
-		System.out.print("è¯·è¾“å…¥ä»»æ„æ•°å€¼æˆ–å­—ç¬¦ä¸²ï¼š");//æç¤ºè¾“å…¥ä»»æ„æ•°å€¼æˆ–å­—ç¬¦ä¸²
+		Scanner in = new Scanner(System.in);//¶¨ÒåÊäÈë±äÁ¿
+		System.out.print("ÇëÊäÈëÈÎÒâÊıÖµ»ò×Ö·û´®£º");//ÌáÊ¾ÊäÈëÈÎÒâÊıÖµ»ò×Ö·û´®
 		String g = in.next();
-		System.out.println("æ‚¨è¾“å…¥çš„æ˜¯ï¼š" + g);
+		System.out.println("ÄúÊäÈëµÄÊÇ£º" + g);
 	}
 }
