@@ -6,6 +6,10 @@ public class Pet {
 	private String color;
 	private double weight;
 	
+	public Pet() {
+		
+	}
+	
 	//构造方法
 	public Pet(String name, int age, String color, double weight) {
 		super();
